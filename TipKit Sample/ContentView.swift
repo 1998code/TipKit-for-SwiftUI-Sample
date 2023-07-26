@@ -9,9 +9,11 @@ import SwiftUI
 import TipKit
 
 struct ContentView: View {
+    // Refer Tip
     var bookmarkTip = BookmarkTip()
     var body: some View {
         VStack {
+            // Place Tip here
             TipView(bookmarkTip, arrowEdge: .bottom)
             Button(action: {}) {
                 Label("Bookmark", systemImage: "star")
