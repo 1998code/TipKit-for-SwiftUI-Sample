@@ -18,8 +18,8 @@ struct ContentView: View {
             }
         }
         .padding()
+        // Add task to load the tips config when app launch.
         .task {
-            // Configure and load your tips at app launch.
             try? await Tips.configure {
                 DisplayFrequency(.immediate)
                 DatastoreLocation(.applicationDefault)
