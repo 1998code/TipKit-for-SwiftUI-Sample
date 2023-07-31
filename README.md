@@ -5,3 +5,9 @@ A quick template to help you get started with Apple TipKit.
 
 ## Tutorial
 https://levelup.gitconnected.com/how-to-use-tipkit-in-swiftui-7a381c86527b
+
+## Structure
+https://raw.githubusercontent.com/1998code/TipKit-for-SwiftUI-Sample/ebf5ef6526c8b1aeae4f8a711b05567ac26550a4/diagram.svg
+
+## License
+MIT
